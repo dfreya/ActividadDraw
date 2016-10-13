@@ -56,8 +56,7 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(80);
-        
+           
         suelo = new Square();
         suelo.changeColor("green");
         suelo.moveHorizontal(-310);
