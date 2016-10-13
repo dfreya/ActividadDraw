@@ -93,4 +93,12 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
-}
+   
+    /**
+     * Mover el sol hacia abajo
+     */
+    public void moveSun()
+    {
+        sun.slowMoveVertical(80);
+       }
+    }
