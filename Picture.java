@@ -16,8 +16,8 @@ public class Picture
     private Square suelo;
     private Triangle roof;
     private Circle sun;
-    private Circle sun2;
-
+    private Person champi;
+    
     /**
      * Constructor for objects of class Picture
      */
@@ -63,6 +63,12 @@ public class Picture
         suelo.moveVertical(140);
         suelo.changeSize(600);
         suelo.makeVisible();
+        
+        champi = new Person();
+        champi.moveVertical(28);
+        champi.moveHorizontal(-220);
+        champi.makeVisible();
+        champi.slowMoveHorizontal(50);
                 
     }
 
